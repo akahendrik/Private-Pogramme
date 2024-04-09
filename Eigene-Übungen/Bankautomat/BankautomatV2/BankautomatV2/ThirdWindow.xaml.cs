@@ -53,7 +53,7 @@ namespace BankautomatV2
             ThirdWindow thirdWindow = new ThirdWindow();
             thirdWindow.Close();
         }test
-    }
+    }kfgkjj
     
 
-}
+}fkhjfkh
