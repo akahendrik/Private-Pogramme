@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -23,10 +24,13 @@ namespace BankautomatV2
     {
         
         public string Kontostand { get; set; }
+        public string Inhaber { get; set; }
+
 
         public MainWindow()
         {
-            InitializeComponent();
+           
+        InitializeComponent();
             
         }
 
