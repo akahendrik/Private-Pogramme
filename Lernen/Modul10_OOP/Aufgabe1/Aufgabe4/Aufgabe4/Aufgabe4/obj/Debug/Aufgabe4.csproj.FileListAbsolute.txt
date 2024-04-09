@@ -1,0 +1,7 @@
+C:\Users\Hendrik\Desktop\ProgrammierenLernen\Modul10_OOP\Aufgabe1\Aufgabe4\Aufgabe4\Aufgabe4\obj\Debug\Aufgabe4.csproj.AssemblyReference.cache
+C:\Users\Hendrik\Desktop\ProgrammierenLernen\Modul10_OOP\Aufgabe1\Aufgabe4\Aufgabe4\Aufgabe4\obj\Debug\Aufgabe4.csproj.CoreCompileInputs.cache
+C:\Users\Hendrik\Desktop\ProgrammierenLernen\Modul10_OOP\Aufgabe1\Aufgabe4\Aufgabe4\Aufgabe4\bin\Debug\Aufgabe4.exe.config
+C:\Users\Hendrik\Desktop\ProgrammierenLernen\Modul10_OOP\Aufgabe1\Aufgabe4\Aufgabe4\Aufgabe4\bin\Debug\Aufgabe4.exe
+C:\Users\Hendrik\Desktop\ProgrammierenLernen\Modul10_OOP\Aufgabe1\Aufgabe4\Aufgabe4\Aufgabe4\bin\Debug\Aufgabe4.pdb
+C:\Users\Hendrik\Desktop\ProgrammierenLernen\Modul10_OOP\Aufgabe1\Aufgabe4\Aufgabe4\Aufgabe4\obj\Debug\Aufgabe4.exe
+C:\Users\Hendrik\Desktop\ProgrammierenLernen\Modul10_OOP\Aufgabe1\Aufgabe4\Aufgabe4\Aufgabe4\obj\Debug\Aufgabe4.pdb

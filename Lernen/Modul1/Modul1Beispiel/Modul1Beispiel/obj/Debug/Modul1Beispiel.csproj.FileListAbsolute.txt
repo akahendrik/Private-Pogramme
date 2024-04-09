@@ -1,0 +1,8 @@
+C:\Users\Hendrik\Desktop\ProgrammierenLernen\Modul1\Modul1Beispiel\Modul1Beispiel\bin\Debug\Modul1Beispiel.exe.config
+C:\Users\Hendrik\Desktop\ProgrammierenLernen\Modul1\Modul1Beispiel\Modul1Beispiel\bin\Debug\Modul1Beispiel.exe
+C:\Users\Hendrik\Desktop\ProgrammierenLernen\Modul1\Modul1Beispiel\Modul1Beispiel\bin\Debug\Modul1Beispiel.pdb
+C:\Users\Hendrik\Desktop\ProgrammierenLernen\Modul1\Modul1Beispiel\Modul1Beispiel\obj\Debug\Modul1Beispiel.csproj.AssemblyReference.cache
+C:\Users\Hendrik\Desktop\ProgrammierenLernen\Modul1\Modul1Beispiel\Modul1Beispiel\obj\Debug\Modul1Beispiel.csproj.SuggestedBindingRedirects.cache
+C:\Users\Hendrik\Desktop\ProgrammierenLernen\Modul1\Modul1Beispiel\Modul1Beispiel\obj\Debug\Modul1Beispiel.csproj.CoreCompileInputs.cache
+C:\Users\Hendrik\Desktop\ProgrammierenLernen\Modul1\Modul1Beispiel\Modul1Beispiel\obj\Debug\Modul1Beispiel.exe
+C:\Users\Hendrik\Desktop\ProgrammierenLernen\Modul1\Modul1Beispiel\Modul1Beispiel\obj\Debug\Modul1Beispiel.pdb

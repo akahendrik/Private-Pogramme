@@ -1,0 +1,15 @@
+C:\Users\Hendrik\Desktop\ProgrammierenLernen\WPF\Ballspiel\Ballspiel\bin\Debug\Ballspiel.exe.config
+C:\Users\Hendrik\Desktop\ProgrammierenLernen\WPF\Ballspiel\Ballspiel\bin\Debug\Ballspiel.exe
+C:\Users\Hendrik\Desktop\ProgrammierenLernen\WPF\Ballspiel\Ballspiel\bin\Debug\Ballspiel.pdb
+C:\Users\Hendrik\Desktop\ProgrammierenLernen\WPF\Ballspiel\Ballspiel\obj\Debug\Ballspiel.csproj.AssemblyReference.cache
+C:\Users\Hendrik\Desktop\ProgrammierenLernen\WPF\Ballspiel\Ballspiel\obj\Debug\MainWindow.g.cs
+C:\Users\Hendrik\Desktop\ProgrammierenLernen\WPF\Ballspiel\Ballspiel\obj\Debug\App.g.cs
+C:\Users\Hendrik\Desktop\ProgrammierenLernen\WPF\Ballspiel\Ballspiel\obj\Debug\Ballspiel_MarkupCompile.cache
+C:\Users\Hendrik\Desktop\ProgrammierenLernen\WPF\Ballspiel\Ballspiel\obj\Debug\Ballspiel_MarkupCompile.lref
+C:\Users\Hendrik\Desktop\ProgrammierenLernen\WPF\Ballspiel\Ballspiel\obj\Debug\MainWindow.baml
+C:\Users\Hendrik\Desktop\ProgrammierenLernen\WPF\Ballspiel\Ballspiel\obj\Debug\Ballspiel.g.resources
+C:\Users\Hendrik\Desktop\ProgrammierenLernen\WPF\Ballspiel\Ballspiel\obj\Debug\Ballspiel.Properties.Resources.resources
+C:\Users\Hendrik\Desktop\ProgrammierenLernen\WPF\Ballspiel\Ballspiel\obj\Debug\Ballspiel.csproj.GenerateResource.cache
+C:\Users\Hendrik\Desktop\ProgrammierenLernen\WPF\Ballspiel\Ballspiel\obj\Debug\Ballspiel.csproj.CoreCompileInputs.cache
+C:\Users\Hendrik\Desktop\ProgrammierenLernen\WPF\Ballspiel\Ballspiel\obj\Debug\Ballspiel.exe
+C:\Users\Hendrik\Desktop\ProgrammierenLernen\WPF\Ballspiel\Ballspiel\obj\Debug\Ballspiel.pdb

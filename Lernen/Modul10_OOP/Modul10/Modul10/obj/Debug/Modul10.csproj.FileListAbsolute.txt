@@ -1,0 +1,7 @@
+C:\Users\Hendrik\Desktop\ProgrammierenLernen\Modul10_OOP\Modul10\Modul10\bin\Debug\Modul10.exe.config
+C:\Users\Hendrik\Desktop\ProgrammierenLernen\Modul10_OOP\Modul10\Modul10\bin\Debug\Modul10.exe
+C:\Users\Hendrik\Desktop\ProgrammierenLernen\Modul10_OOP\Modul10\Modul10\bin\Debug\Modul10.pdb
+C:\Users\Hendrik\Desktop\ProgrammierenLernen\Modul10_OOP\Modul10\Modul10\obj\Debug\Modul10.csproj.AssemblyReference.cache
+C:\Users\Hendrik\Desktop\ProgrammierenLernen\Modul10_OOP\Modul10\Modul10\obj\Debug\Modul10.csproj.CoreCompileInputs.cache
+C:\Users\Hendrik\Desktop\ProgrammierenLernen\Modul10_OOP\Modul10\Modul10\obj\Debug\Modul10.exe
+C:\Users\Hendrik\Desktop\ProgrammierenLernen\Modul10_OOP\Modul10\Modul10\obj\Debug\Modul10.pdb
