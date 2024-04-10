@@ -13,7 +13,8 @@
         <Label x:Name="abmelden" Content="abmelden" HorizontalAlignment="Left" Margin="622,272,0,0" VerticalAlignment="Top" FontSize="36"/>
         <Button x:Name="Kontoinformation" HorizontalAlignment="Left" Margin="305,79,0,0" VerticalAlignment="Top" Background="YellowGreen" Width="50" Height="50" Click="Kontoinformation_Click" />
         <Button x:Name="Kontostand" HorizontalAlignment="Left" Margin="305,280,0,0" VerticalAlignment="Top" Background="YellowGreen" Width="50" Height="50" Click="Kontostand_Click"/>
-        <Button x:Name="abmelden1" Content="Button" HorizontalAlignment="Left" Margin="577,295,0,0" VerticalAlignment="Top" Click="abmelden1_Click"/>
+        <Button x:Name="abmelden1" Content="Button" HorizontalAlignment="Left" Margin="577,295,0,0" VerticalAlignment="Top" Click="Abmelden1_Click"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="597,115,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>

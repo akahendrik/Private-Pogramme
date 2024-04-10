@@ -23,21 +23,23 @@ namespace BankautomatV2
     {
         
 
-        private string Akontostand = "500";
-        private string Akontoinhaber = "Hendrik Massel";
+        public string Akontostand = "500";
+        public string Akontoinhaber = "Hendrik Massel";
         
         public ThirdWindow()
         {
 
             
             InitializeComponent();
-             ThirdWindow thirdWindow = new ThirdWindow();
+             
         }
-
+       
         private void Kontoinformation_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow kontostandclass = new MainWindow();
-            kontostandclass.Kontostand = Akontostand;
+            MainWindow kontostandclass = new MainWindow
+            {
+                Kontostand = Akontostand
+            };
             MessageBox.Show(Akontoinhaber);
             
         }
@@ -45,34 +47,21 @@ namespace BankautomatV2
         private void Kontostand_Click(object sender, RoutedEventArgs e)
         {
             //MessageBox.Show("Kontostand {0}", Akontostand);
-            MainWindow kontostandclass = new MainWindow();
-            kontostandclass.Kontostand = Akontostand;
+            MainWindow kontostandclass = new MainWindow
+            {
+                Kontostand = Akontostand
+            };
             MessageBox.Show(Akontostand);
         }
 
-        private void abmelden1_Click(object sender, RoutedEventArgs e)
+        private void Abmelden1_Click(object sender, RoutedEventArgs e)
         {
-            bool fensterAuf = true;
-            ThirdWindow thirdWindow = new ThirdWindow();
             SecondWindow secondWindow = new SecondWindow();
 
+            this.Close();
             secondWindow.Show();
 
-            if (fensterAuf)
-            {
-                thirdWindow.Close();
-            }
-            else
-            {
-                fensterAuf = false;
-            }
 
-            if (fensterAuf == false)
-            {
-                secondWindow.Show();
-            }
-
-            
         }
     }
     
