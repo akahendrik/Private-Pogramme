@@ -40,7 +40,8 @@ namespace BankautomatV2
             {
                 Kontostand = Akontostand
             };
-            MessageBox.Show(Akontoinhaber);
+            string inform = "Kontoinformation";
+            MessageBox.Show(Akontoinhaber, inform);
             
         }
 
@@ -51,8 +52,9 @@ namespace BankautomatV2
             {
                 Kontostand = Akontostand
             };
-            //test für die anordnung eines fensters wie kopfzeile und index 
-            MessageBox.Show("Kontostandfenster",Akontostand);
+            string index = "Kontostand: ";
+            string kontoindex = "Dein Kontostand beträgt " + Akontostand + " €";
+            MessageBox.Show(kontoindex,index);
         }
 
         private void Abmelden1_Click(object sender, RoutedEventArgs e)
