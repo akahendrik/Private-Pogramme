@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics.Eventing.Reader;
 using System.Linq;
@@ -51,7 +51,8 @@ namespace BankautomatV2
             {
                 Kontostand = Akontostand
             };
-            MessageBox.Show(Akontostand);
+            //test für die anordnung eines fensters wie kopfzeile und index 
+            MessageBox.Show("Kontostandfenster",Akontostand);
         }
 
         private void Abmelden1_Click(object sender, RoutedEventArgs e)
