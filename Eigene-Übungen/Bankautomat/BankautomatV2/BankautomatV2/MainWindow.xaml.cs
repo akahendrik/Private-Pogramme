@@ -38,7 +38,6 @@ namespace BankautomatV2
         {
             SecondWindow secondWindow = new SecondWindow();
             this.Close();
-            //this.Visibility = Visibility.Hidden;
             
             secondWindow.Show();
 

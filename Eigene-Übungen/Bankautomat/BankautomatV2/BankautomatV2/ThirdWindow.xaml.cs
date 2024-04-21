@@ -21,7 +21,6 @@ namespace BankautomatV2
     /// </summary>
     public partial class ThirdWindow : Window
     {
-        public string Einzahlkontostand {  get; set; }
 
         public string Akontostand = "500";
         public string Akontoinhaber = "Hendrik Massel";
@@ -74,15 +73,20 @@ namespace BankautomatV2
             input = TextBoxEinzahlung.Text;
             int inputint = Int32.Parse(input);
             int kontostandint = Int32.Parse(Akontostand);
+            char inputchar = 'a';
             
 
             if (inputint >= 1)
             {
                 kontostandint += inputint;
             }
+            else if (inputint == inputchar)
+            {
+                MessageBox.Show("ERROR keine Buchstaben");//geht noch nicht
+            }
             else
             {
-                MessageBox.Show("ERROR");
+                MessageBox.Show("!!ERROR!!");
             }
 
             Akontostand = Convert.ToString(kontostandint);

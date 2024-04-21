@@ -53,7 +53,7 @@ namespace BankautomatV2
             }
         }
 
-        private void beendenLogin_Click(object sender, RoutedEventArgs e)
+        private void BeendenLogin_Click(object sender, RoutedEventArgs e)
         {
 
             if (MessageBox.Show("Sicher?", "Programm beenden", MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.Yes)
