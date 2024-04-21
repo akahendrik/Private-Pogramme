@@ -36,3 +36,5 @@ D:\Github-Projects\Private-Pogramme\Eigene-Übungen\Bankautomat\BankautomatV2\Ba
 D:\Github-Projects\Private-Pogramme\Eigene-Übungen\Bankautomat\BankautomatV2\BankautomatV2\obj\Debug\BankautomatV2.csproj.CoreCompileInputs.cache
 D:\Github-Projects\Private-Pogramme\Eigene-Übungen\Bankautomat\BankautomatV2\BankautomatV2\obj\Debug\BankautomatV2.exe
 D:\Github-Projects\Private-Pogramme\Eigene-Übungen\Bankautomat\BankautomatV2\BankautomatV2\obj\Debug\BankautomatV2.pdb
+D:\Github-Projects\Private-Pogramme\Eigene-Übungen\Bankautomat\BankautomatV2\BankautomatV2\obj\Debug\FirstSide.g.cs
+D:\Github-Projects\Private-Pogramme\Eigene-Übungen\Bankautomat\BankautomatV2\BankautomatV2\obj\Debug\FirstSide.baml
