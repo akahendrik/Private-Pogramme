@@ -78,7 +78,7 @@ namespace BankautomatV2
 
             if (inputint >= 1)
             {
-                kontostandint = kontostandint + inputint;
+                kontostandint += inputint;
             }
             else
             {
@@ -93,6 +93,31 @@ namespace BankautomatV2
             };
             
 
+        }
+
+        private void Button_ClickAuszahlen(object sender, RoutedEventArgs e)
+        {
+            string input;
+            input = TextBoxAuszahlung.Text;
+            int inputint = Int32.Parse(input);
+            int kontostandint = Int32.Parse(Akontostand);
+
+
+            if (inputint >= 1)
+            {
+                kontostandint -= inputint;
+            }
+            else
+            {
+                MessageBox.Show("ERROR");
+            }
+
+            Akontostand = Convert.ToString(kontostandint);
+
+            MainWindow kontostandclass = new MainWindow
+            {
+                Kontostand = Akontostand
+            };
         }
     }
 }

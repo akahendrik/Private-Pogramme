@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -52,6 +53,19 @@ namespace BankautomatV2
             }
         }
 
-        
+        private void beendenLogin_Click(object sender, RoutedEventArgs e)
+        {
+
+            if (MessageBox.Show("Sicher?", "Programm beenden", MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.Yes)
+            {
+                Environment.Exit(0);
+            }
+            else
+            {
+                SecondWindow secondWindow = new SecondWindow();
+                secondWindow.Show();
+            }
+
+        }
     }
 }

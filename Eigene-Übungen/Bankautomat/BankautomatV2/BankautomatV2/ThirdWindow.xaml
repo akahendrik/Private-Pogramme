@@ -8,16 +8,17 @@
         Title="ThirdWindow" Height="450" Width="800">
     <Grid>
         <Label x:Name="kontoinformation" Content="Kontoinformation" HorizontalAlignment="Left" Margin="10,75,0,0" VerticalAlignment="Top" FontSize="36"/>
-        <Label x:Name="kontostand" Content="Kontostand" HorizontalAlignment="Left" Margin="59,272,0,0" VerticalAlignment="Top" FontSize="36"/>
-        <Label x:Name="zurück" Content="zurück" HorizontalAlignment="Left" Margin="632,75,0,0" VerticalAlignment="Top" FontSize="36"/>
-        <Label x:Name="abmelden" Content="abmelden" HorizontalAlignment="Left" Margin="622,272,0,0" VerticalAlignment="Top" FontSize="36"/>
-        <Button x:Name="Kontoinformation" HorizontalAlignment="Left" Margin="305,79,0,0" VerticalAlignment="Top" Background="YellowGreen" Width="50" Height="50" Click="Kontoinformation_Click" />
-        <Button x:Name="Kontostand" HorizontalAlignment="Left" Margin="305,280,0,0" VerticalAlignment="Top" Background="YellowGreen" Width="50" Height="50" Click="Kontostand_Click"/>
-        <Button x:Name="abmelden1" Content="Button" HorizontalAlignment="Left" Margin="577,295,0,0" VerticalAlignment="Top" Click="Abmelden1_Click"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="597,115,0,0" VerticalAlignment="Top"/>
-        <Label Content="Einzahlung" HorizontalAlignment="Left" Margin="76,376,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="ButtonEinzahlen" Content="EinzahlenButton" HorizontalAlignment="Left" Margin="305,379,0,0" VerticalAlignment="Top" Click="ButtonEinzahlen_Click"/>
-        <TextBox x:Name="TextBoxEinzahlung" Margin="168,381,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="kontostand" Content="Kontostand" HorizontalAlignment="Left" Margin="77,217,0,0" VerticalAlignment="Top" FontSize="36"/>
+        <Label x:Name="abmelden" Content="abmelden" HorizontalAlignment="Left" Margin="187,344,0,0" VerticalAlignment="Top" FontSize="36"/>
+        <Button x:Name="Kontoinformation" HorizontalAlignment="Left" Margin="330,79,0,0" VerticalAlignment="Top" Background="Red" Width="50" Height="50" Click="Kontoinformation_Click" />
+        <Button x:Name="Kontostand" HorizontalAlignment="Left" Margin="330,225,0,0" VerticalAlignment="Top" Background="Red" Width="50" Height="50" Click="Kontostand_Click"/>
+        <Button x:Name="abmelden1" Content="ABMELDEN" HorizontalAlignment="Left" Margin="376,362,0,0" VerticalAlignment="Top" Click="Abmelden1_Click" BorderBrush="#FFD41B1B" Background="#FFEF8676" FontSize="22"/>
+        <Label Content="Einzahlung" HorizontalAlignment="Left" Margin="602,75,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.099,0.721" FontSize="36"/>
+        <Button x:Name="ButtonEinzahlen" Content="Einzahlen" HorizontalAlignment="Left" Margin="509,104,0,0" VerticalAlignment="Top" Click="ButtonEinzahlen_Click" Background="#FFF57070"/>
+        <TextBox x:Name="TextBoxEinzahlung" Margin="509,138,171,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.342,-0.722"/>
+        <Label Content="Auszahlung" HorizontalAlignment="Left" Margin="590,209,0,0" VerticalAlignment="Top" FontSize="36"/>
+        <TextBox x:Name="TextBoxAuszahlung" Margin="509,272,171,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="AuszahlenButton" Content="Auszahlen" HorizontalAlignment="Left" Margin="509,238,0,0" VerticalAlignment="Top" Click="Button_ClickAuszahlen" Background="#FFE46161"/>
 
     </Grid>
 </Window>
