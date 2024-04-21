@@ -21,7 +21,7 @@ namespace BankautomatV2
     /// </summary>
     public partial class ThirdWindow : Window
     {
-        
+        public string Einzahlkontostand {  get; set; }
 
         public string Akontostand = "500";
         public string Akontoinhaber = "Hendrik Massel";
@@ -39,6 +39,7 @@ namespace BankautomatV2
             MainWindow kontostandclass = new MainWindow
             {
                 Kontostand = Akontostand
+
             };
             string inform = "Kontoinformation";
             MessageBox.Show(Akontoinhaber, inform);
@@ -66,7 +67,32 @@ namespace BankautomatV2
 
 
         }
-    }
-    
 
+        public void ButtonEinzahlen_Click(object sender, RoutedEventArgs e)
+        {
+            string input;
+            input = TextBoxEinzahlung.Text;
+            int inputint = Int32.Parse(input);
+            int kontostandint = Int32.Parse(Akontostand);
+            
+
+            if (inputint >= 1)
+            {
+                kontostandint = kontostandint + inputint;
+            }
+            else
+            {
+                MessageBox.Show("ERROR");
+            }
+
+            Akontostand = Convert.ToString(kontostandint);
+
+            MainWindow kontostandclass = new MainWindow
+            {
+                Kontostand = Akontostand
+            };
+            
+
+        }
+    }
 }
