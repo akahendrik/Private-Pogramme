@@ -1,0 +1,116 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GitHub-Projects\\Private-Pogramme\\Eigene-\u00DCbungen\\CRM\\CMRv1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D6E11777-BFD5-4E8C-8E58-D526851DFAE5}|CMRv1\\CMRv1.csproj|d:\\github-projects\\private-pogramme\\eigene-\u00FCbungen\\crm\\cmrv1\\cmrv1\\pagekunden.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D6E11777-BFD5-4E8C-8E58-D526851DFAE5}|CMRv1\\CMRv1.csproj|solutionrelative:cmrv1\\pagekunden.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6E11777-BFD5-4E8C-8E58-D526851DFAE5}|CMRv1\\CMRv1.csproj|D:\\GitHub-Projects\\Private-Pogramme\\Eigene-\u00DCbungen\\CRM\\CMRv1\\cmrv1\\secondwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D6E11777-BFD5-4E8C-8E58-D526851DFAE5}|CMRv1\\CMRv1.csproj|solutionrelative:cmrv1\\secondwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6E11777-BFD5-4E8C-8E58-D526851DFAE5}|CMRv1\\CMRv1.csproj|D:\\GitHub-Projects\\Private-Pogramme\\Eigene-\u00DCbungen\\CRM\\CMRv1\\cmrv1\\secondwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6E11777-BFD5-4E8C-8E58-D526851DFAE5}|CMRv1\\CMRv1.csproj|solutionrelative:cmrv1\\secondwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6E11777-BFD5-4E8C-8E58-D526851DFAE5}|CMRv1\\CMRv1.csproj|D:\\GitHub-Projects\\Private-Pogramme\\Eigene-\u00DCbungen\\CRM\\CMRv1\\cmrv1\\pagekunden.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6E11777-BFD5-4E8C-8E58-D526851DFAE5}|CMRv1\\CMRv1.csproj|solutionrelative:cmrv1\\pagekunden.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6E11777-BFD5-4E8C-8E58-D526851DFAE5}|CMRv1\\CMRv1.csproj|D:\\GitHub-Projects\\Private-Pogramme\\Eigene-\u00DCbungen\\CRM\\CMRv1\\cmrv1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D6E11777-BFD5-4E8C-8E58-D526851DFAE5}|CMRv1\\CMRv1.csproj|solutionrelative:cmrv1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6E11777-BFD5-4E8C-8E58-D526851DFAE5}|CMRv1\\CMRv1.csproj|D:\\GitHub-Projects\\Private-Pogramme\\Eigene-\u00DCbungen\\CRM\\CMRv1\\cmrv1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6E11777-BFD5-4E8C-8E58-D526851DFAE5}|CMRv1\\CMRv1.csproj|solutionrelative:cmrv1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PageKunden.xaml.cs",
+              "DocumentMoniker": "D:\\GitHub-Projects\\Private-Pogramme\\Eigene-\u00DCbungen\\CRM\\CMRv1\\CMRv1\\PageKunden.xaml.cs",
+              "RelativeDocumentMoniker": "CMRv1\\PageKunden.xaml.cs",
+              "ToolTip": "D:\\GitHub-Projects\\Private-Pogramme\\Eigene-\u00DCbungen\\CRM\\CMRv1\\CMRv1\\PageKunden.xaml.cs",
+              "RelativeToolTip": "CMRv1\\PageKunden.xaml.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAewCEAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T16:18:51.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PageKunden.xaml",
+              "DocumentMoniker": "D:\\GitHub-Projects\\Private-Pogramme\\Eigene-\u00DCbungen\\CRM\\CMRv1\\CMRv1\\PageKunden.xaml",
+              "RelativeDocumentMoniker": "CMRv1\\PageKunden.xaml",
+              "ToolTip": "D:\\GitHub-Projects\\Private-Pogramme\\Eigene-\u00DCbungen\\CRM\\CMRv1\\CMRv1\\PageKunden.xaml",
+              "RelativeToolTip": "CMRv1\\PageKunden.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-23T16:18:37.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SecondWindow.xaml.cs",
+              "DocumentMoniker": "D:\\GitHub-Projects\\Private-Pogramme\\Eigene-\u00DCbungen\\CRM\\CMRv1\\CMRv1\\SecondWindow.xaml.cs",
+              "RelativeDocumentMoniker": "CMRv1\\SecondWindow.xaml.cs",
+              "ToolTip": "D:\\GitHub-Projects\\Private-Pogramme\\Eigene-\u00DCbungen\\CRM\\CMRv1\\CMRv1\\SecondWindow.xaml.cs",
+              "RelativeToolTip": "CMRv1\\SecondWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T21:43:49.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SecondWindow.xaml",
+              "DocumentMoniker": "D:\\GitHub-Projects\\Private-Pogramme\\Eigene-\u00DCbungen\\CRM\\CMRv1\\CMRv1\\SecondWindow.xaml",
+              "RelativeDocumentMoniker": "CMRv1\\SecondWindow.xaml",
+              "ToolTip": "D:\\GitHub-Projects\\Private-Pogramme\\Eigene-\u00DCbungen\\CRM\\CMRv1\\CMRv1\\SecondWindow.xaml",
+              "RelativeToolTip": "CMRv1\\SecondWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-22T21:33:21.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\GitHub-Projects\\Private-Pogramme\\Eigene-\u00DCbungen\\CRM\\CMRv1\\CMRv1\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "CMRv1\\MainWindow.xaml",
+              "ToolTip": "D:\\GitHub-Projects\\Private-Pogramme\\Eigene-\u00DCbungen\\CRM\\CMRv1\\CMRv1\\MainWindow.xaml",
+              "RelativeToolTip": "CMRv1\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-22T21:11:45.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\GitHub-Projects\\Private-Pogramme\\Eigene-\u00DCbungen\\CRM\\CMRv1\\CMRv1\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "CMRv1\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\GitHub-Projects\\Private-Pogramme\\Eigene-\u00DCbungen\\CRM\\CMRv1\\CMRv1\\MainWindow.xaml.cs",
+              "RelativeToolTip": "CMRv1\\MainWindow.xaml.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAiwBcAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T21:11:44.93Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
