@@ -27,7 +27,7 @@ namespace CMRv1
         private void BtnKundenverwaltungClick(object sender, RoutedEventArgs e)
         {
             BTNKunden.Content = new PageKunden();
-           
+            
             
         }
     }

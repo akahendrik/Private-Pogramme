@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -25,9 +27,26 @@ namespace CMRv1
             InitializeComponent();
         }
 
-        private void BtnKundenverwaltungClick(object sender, RoutedEventArgs e)
+        private void ComboBoxKunden_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-
+            ComboBoxItem selectetItem = new ComboBoxItem();
+            string selectetValue = selectetItem.Content.ToString();
+            MessageBox.Show("Selectet Value :" + selectetValue);
         }
+
+
+
+
+
+        //private void BtnInputKunden_Click(object sender, RoutedEventArgs e)
+        //{
+        //    //geht
+
+        //    StreamReader sr = new StreamReader(@"C:\Users\Hendrik\Documents\CRM\Kundendaten\Kunde1.txt");
+        //    string input = sr.ReadToEnd();
+        //    KundenLabel.Content = input;
+        //    sr.Close();
+
+        //}
     }
 }
