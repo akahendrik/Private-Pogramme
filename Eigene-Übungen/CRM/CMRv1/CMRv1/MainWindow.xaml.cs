@@ -39,10 +39,14 @@ namespace CMRv1
             //Abfrage vom eingegebenen Passwort
             passwort = passwort_box.Password;
 
+            SecondWindow secondwindow = new SecondWindow();
+            var keyinput = Key.Enter;
+
+
+
             //wenn Name und Passwort richtig dann weiterleitung zum nächsten Fenster
             if (name == safename && passwort == safepasswort)
             {
-                SecondWindow secondwindow = new SecondWindow();
                 this.Close();
                 secondwindow.Show();
             }

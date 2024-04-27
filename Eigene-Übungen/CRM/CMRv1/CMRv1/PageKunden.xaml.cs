@@ -27,12 +27,26 @@ namespace CMRv1
             InitializeComponent();
         }
 
-        private void ComboBoxKunden_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void LoadFileNames()
         {
-            ComboBoxItem selectetItem = new ComboBoxItem();
-            string selectetValue = selectetItem.Content.ToString();
-            MessageBox.Show("Selectet Value :" + selectetValue);
+            //ComboBoxItem selectetItem = new ComboBoxItem();
+
+            string directoryPath = @"\C:\Users\Hendrik\Documents\CRM\Kundendaten\"; // Passe den Pfad zu dem Verzeichnis an, das die Dateien enthält
+            string[] fileNames = Directory.GetFiles(directoryPath);
+
+            foreach (string fileName in fileNames)
+            {
+                string name = System.IO.Path.GetFileName(fileName);
+                ComboBoxKunden.Items.Add(name);
+            }
+
+
+
+            //string selectetValue = selectetItem.Content.ToString();
+            //MessageBox.Show("Selectet Value :" + selectetValue);
         }
+
+
 
 
 
