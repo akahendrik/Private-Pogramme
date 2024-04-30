@@ -14,7 +14,7 @@
         
         <!--eintragHendrik-->
         <Frame Grid.Column="2" Margin="10,10,10,10" Grid.Row="2" Grid.RowSpan="4" NavigationUIVisibility="Hidden" />
-        <ComboBox Name="ComboBoxKunden" Margin="58,73,1111,602" SelectionChanged="ComboBoxKundenSelectionChanged"/>
+        <ComboBox Name="ComboBoxKunden" Margin="58,73,1067,602" SelectionChanged="ComboBoxKundenSelectionChanged" FontSize="20" />
         <Button x:Name="BtnShowKunden" Content="Show/Edit" HorizontalAlignment="Left" Margin="218,86,0,0" VerticalAlignment="Top" Click="BtnShowKunden_Click"/>
 
 

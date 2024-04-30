@@ -28,9 +28,18 @@ namespace CMRv1
             //string importedText = File.ReadAllText(filePath);
             //txtImport.Text = importedText;
 
-            StreamReader kundensr = new StreamReader(@"C:\Users\Hendrik\Documents\CRM\Kundendaten\Kunde1.txt");
+            //Pfad für PC
+            //StreamReader kundensr = new StreamReader(@"C:\Users\Hendrik\Documents\CRM\Kundendaten\Kunde1.txt");
+            //StreamWriter kundenSchreiben = new StreamWriter(@"C:\Users\Hendrik\Documents\CRM\Kundendaten\Kunde1.txt",false);
+
+            //Pfad für Laptop
+            StreamReader kundensr = new StreamReader(@"C:\Users\hendr\Documents\CRM\Kunde1.txt");
+            //StreamWriter kundenSchreiben = new StreamWriter(@"C:\Users\hendr\Documents\CRM\Kunde1.txt", false);
+
 
             txtImport.Text = kundensr.ReadToEnd();
+            //kundenSchreiben.Write(txtImport.Text);
+
 
             kundensr.Close();
         }

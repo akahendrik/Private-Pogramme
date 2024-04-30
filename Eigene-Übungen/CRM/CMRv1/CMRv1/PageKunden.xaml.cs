@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices;
+using System.Runtime.Remoting.Messaging;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -25,9 +26,13 @@ namespace CMRv1
     {
         public PageKunden()
         {
-            InitializeComponent();
+            InitializeComponent(); 
 
-            LoadFilesFromFolder(@"C:\Users\Hendrik\Documents\CRM\Kundendaten");
+            //Pfad für PC
+            //LoadFilesFromFolder(@"C:\Users\Hendrik\Documents\CRM\Kundendaten");
+
+            //Pfad für Laptop
+            LoadFilesFromFolder(@"C:\Users\hendr\Documents\CRM");
 
         }
 
