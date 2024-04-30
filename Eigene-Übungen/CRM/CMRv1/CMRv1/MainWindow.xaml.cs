@@ -40,7 +40,7 @@ namespace CMRv1
             passwort = passwort_box.Password;
 
             SecondWindow secondwindow = new SecondWindow();
-            var keyinput = Key.Enter;
+            
 
 
 

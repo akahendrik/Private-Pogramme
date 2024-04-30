@@ -14,6 +14,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Xml.Linq;
 
 namespace CMRv1
 {
@@ -25,42 +26,44 @@ namespace CMRv1
         public PageKunden()
         {
             InitializeComponent();
+
+            LoadFilesFromFolder(@"C:\Users\Hendrik\Documents\CRM\Kundendaten");
+
         }
 
-        private void LoadFileNames()
+        private void LoadFilesFromFolder(string folderPath)
         {
-            //ComboBoxItem selectetItem = new ComboBoxItem();
+            string[] files = Directory.GetFiles(folderPath);
 
-            string directoryPath = @"\C:\Users\Hendrik\Documents\CRM\Kundendaten\"; // Passe den Pfad zu dem Verzeichnis an, das die Dateien enthält
-            string[] fileNames = Directory.GetFiles(directoryPath);
-
-            foreach (string fileName in fileNames)
+            foreach (string file in files)
             {
-                string name = System.IO.Path.GetFileName(fileName);
-                ComboBoxKunden.Items.Add(name);
+                string fileName = System.IO.Path.GetFileName(file);
+                ComboBoxKunden.Items.Add(fileName);
             }
-
-
-
-            //string selectetValue = selectetItem.Content.ToString();
-            //MessageBox.Show("Selectet Value :" + selectetValue);
+            
         }
 
+        private void ComboBoxKundenSelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            string selectedFileName = ComboBoxKunden.SelectedItem.ToString();
+            //string kunde1 = "Kunde1";
+            //if (selectedFileName == kunde1)
+            //{
+            //    ThirdWindow thirdwindow = new ThirdWindow();
+            //    thirdwindow.Show();
+            //}
+        }
 
+        private void BtnShowKunden_Click(object sender, RoutedEventArgs e)
+        {
+            string selectedFileName = ComboBoxKunden.SelectedItem.ToString();
+            string kunde1 = "Kunde1.txt";
 
-
-
-
-
-        //private void BtnInputKunden_Click(object sender, RoutedEventArgs e)
-        //{
-        //    //geht
-
-        //    StreamReader sr = new StreamReader(@"C:\Users\Hendrik\Documents\CRM\Kundendaten\Kunde1.txt");
-        //    string input = sr.ReadToEnd();
-        //    KundenLabel.Content = input;
-        //    sr.Close();
-
-        //}
+            if (selectedFileName == kunde1)
+            {
+                ThirdWindow thirdwindow = new ThirdWindow();
+                thirdwindow.Show();
+            }
+        }
     }
 }

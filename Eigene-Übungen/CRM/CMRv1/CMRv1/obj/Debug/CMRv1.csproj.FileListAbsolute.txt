@@ -17,3 +17,5 @@ D:\Github-Projects\Private-Pogramme\Eigene-Übungen\CRM\CMRv1\CMRv1\obj\Debug\CM
 D:\Github-Projects\Private-Pogramme\Eigene-Übungen\CRM\CMRv1\CMRv1\obj\Debug\CMRv1.pdb
 D:\Github-Projects\Private-Pogramme\Eigene-Übungen\CRM\CMRv1\CMRv1\obj\Debug\PageKunden.g.cs
 D:\Github-Projects\Private-Pogramme\Eigene-Übungen\CRM\CMRv1\CMRv1\obj\Debug\PageKunden.baml
+D:\Github-Projects\Private-Pogramme\Eigene-Übungen\CRM\CMRv1\CMRv1\obj\Debug\ThirdWindow.g.cs
+D:\Github-Projects\Private-Pogramme\Eigene-Übungen\CRM\CMRv1\CMRv1\obj\Debug\ThirdWindow.baml
