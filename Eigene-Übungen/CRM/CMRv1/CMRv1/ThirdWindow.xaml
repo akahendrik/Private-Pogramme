@@ -7,7 +7,8 @@
         mc:Ignorable="d"
         Title="ThirdWindow" Height="450" Width="800">
     <Grid>
-        <TextBox x:Name="txtImport" HorizontalAlignment="Center" Margin="0,24,0,0" VerticalAlignment="Top" Height="239" Width="449" AcceptsReturn="True" />
+        <TextBox x:Name="txtImport" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Height="378" Width="780" AcceptsReturn="True" />
+        <Button x:Name="BtnÜberschreiben" Content="Speichern" HorizontalAlignment="Left" Margin="708,393,0,0" VerticalAlignment="Top" Height="31" Width="82" Click="BtnÜberschreiben_Click"/>
 
     </Grid>
 </Window>

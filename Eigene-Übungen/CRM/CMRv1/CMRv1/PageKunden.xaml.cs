@@ -26,13 +26,13 @@ namespace CMRv1
     {
         public PageKunden()
         {
-            InitializeComponent(); 
+            InitializeComponent();
 
             //Pfad für PC
-            //LoadFilesFromFolder(@"C:\Users\Hendrik\Documents\CRM\Kundendaten");
+            LoadFilesFromFolder(@"C:\Users\Hendrik\Documents\CRM\Kundendaten");
 
-            //Pfad für Laptop
-            LoadFilesFromFolder(@"C:\Users\hendr\Documents\CRM");
+            ////Pfad für Laptop
+            //LoadFilesFromFolder(@"C:\Users\hendr\Documents\CRM");
 
         }
 
@@ -48,17 +48,6 @@ namespace CMRv1
             
         }
 
-        private void ComboBoxKundenSelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            string selectedFileName = ComboBoxKunden.SelectedItem.ToString();
-            //string kunde1 = "Kunde1";
-            //if (selectedFileName == kunde1)
-            //{
-            //    ThirdWindow thirdwindow = new ThirdWindow();
-            //    thirdwindow.Show();
-            //}
-        }
-
         private void BtnShowKunden_Click(object sender, RoutedEventArgs e)
         {
             string selectedFileName = ComboBoxKunden.SelectedItem.ToString();
@@ -69,6 +58,10 @@ namespace CMRv1
                 ThirdWindow thirdwindow = new ThirdWindow();
                 thirdwindow.Show();
             }
+
+
+
+
         }
     }
 }

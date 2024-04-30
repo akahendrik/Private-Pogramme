@@ -24,16 +24,13 @@ namespace CMRv1
         {
             InitializeComponent();
 
-            //string filePath = @"C:\Users\Hendrik\Documents\CRM\Kundendaten\Kunde1.txt";
-            //string importedText = File.ReadAllText(filePath);
-            //txtImport.Text = importedText;
 
             //Pfad für PC
-            //StreamReader kundensr = new StreamReader(@"C:\Users\Hendrik\Documents\CRM\Kundendaten\Kunde1.txt");
-            //StreamWriter kundenSchreiben = new StreamWriter(@"C:\Users\Hendrik\Documents\CRM\Kundendaten\Kunde1.txt",false);
+            StreamReader kundensr = new StreamReader(@"C:\Users\Hendrik\Documents\CRM\Kundendaten\Kunde1.txt");
+            
 
             //Pfad für Laptop
-            StreamReader kundensr = new StreamReader(@"C:\Users\hendr\Documents\CRM\Kunde1.txt");
+            //StreamReader kundensr = new StreamReader(@"C:\Users\hendr\Documents\CRM\Kunde1.txt");
             //StreamWriter kundenSchreiben = new StreamWriter(@"C:\Users\hendr\Documents\CRM\Kunde1.txt", false);
 
 
@@ -44,10 +41,18 @@ namespace CMRv1
             kundensr.Close();
         }
 
+        private void BtnÜberschreiben_Click(object sender, RoutedEventArgs e)
+        {
+           
+            StreamWriter kundenSchreiben = new StreamWriter(@"C:\Users\Hendrik\Documents\CRM\Kundendaten\Kunde1.txt");
+            
+           
+            
+            kundenSchreiben.Write(txtImport.Text);
 
-        
-
-
-
+            kundenSchreiben.Close();
+            
+            this.Close();
+        }
     }
 }
