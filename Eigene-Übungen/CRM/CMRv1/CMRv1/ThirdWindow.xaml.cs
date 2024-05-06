@@ -23,36 +23,57 @@ namespace CMRv1
         public ThirdWindow()
         {
             InitializeComponent();
+            //DirectoryInfo directoryInfo = new DirectoryInfo(@"C:\Users\Hendrik\Documents\CRM\Kundendaten");
+            //StreamReader  readerKunden = new StreamReader(@"C:\Users\Hendrik\Documents\CRM\Kundendaten");
 
 
-            //Pfad für PC
-            StreamReader kundensr = new StreamReader(@"C:\Users\Hendrik\Documents\CRM\Kundendaten\Kunde1.txt");
+
+            //txtImport.Text = kundenreader.ReadToEnd();
+            //kundenSchreiben.Write(txtImport.Text);
+            //kundenreader.Close();
+            LoadFilesFromFolder(@"C:\Users\Hendrik\Documents\CRM\Kundendaten\");
+        }
+
+
+        private void LoadFilesFromFolder(string kundenpath)
+        {
+            PageKunden pageKundenHilfe = new PageKunden();
+            string fileConent = pageKundenHilfe.ComboBoxKunden.SelectedItem as string;
             
 
-            //Pfad für Laptop
-            //StreamReader kundensr = new StreamReader(@"C:\Users\hendr\Documents\CRM\Kunde1.txt");
-            //StreamWriter kundenSchreiben = new StreamWriter(@"C:\Users\hendr\Documents\CRM\Kunde1.txt", false);
 
+            string[] files = Directory.GetFiles(kundenpath);
 
-            txtImport.Text = kundensr.ReadToEnd();
-            //kundenSchreiben.Write(txtImport.Text);
+            foreach (string file in files)
+            {
+                if (fileConent == file)
+                {
+                    StreamReader readerKunden = new StreamReader(kundenpath) ; //<- muss geändert werden
+                    txtImport.Text = readerKunden.ReadToEnd();
+                    readerKunden.Close();
+                }
+            }
+            
 
+           
+            
+            
 
-            kundensr.Close();
         }
+
 
         private void BtnÜberschreiben_Click(object sender, RoutedEventArgs e)
         {
-           
-            StreamWriter kundenSchreiben = new StreamWriter(@"C:\Users\Hendrik\Documents\CRM\Kundendaten\Kunde1.txt");
-            
-           
-            
-            kundenSchreiben.Write(txtImport.Text);
 
-            kundenSchreiben.Close();
+             //StreamWriter kundenSchreiben = new StreamWriter(@"C:\Users\Hendrik\Documents\CRM\Kundendaten\");
+
+
+
+             //kundenSchreiben.Write(txtImport.Text);
+
+             //kundenSchreiben.Close();
             
-            this.Close();
+             //this.Close();
         }
     }
 }

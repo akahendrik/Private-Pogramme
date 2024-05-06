@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -26,13 +27,29 @@ namespace CMRv1
         private string name;
         private string passwort;
 
+
         public MainWindow()
         {
             InitializeComponent();
+
+
+            DirectoryInfo ordnerVerzeichnis = new DirectoryInfo(@"C:\Users\Hendrik\Documents\CRM\Kundendaten");
+
+            if (ordnerVerzeichnis.Exists)
+            {
+                
+            }
+            else 
+            {
+                ordnerVerzeichnis.Create();
+            }
+
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        public void Button_Click(object sender, RoutedEventArgs e)
         {
+            
+
             //Abfrage vom eingegebenen Name
             name = name_box.Text;
 
@@ -64,13 +81,12 @@ namespace CMRv1
             {
                 Environment.Exit(0);
             }
-            //Funktioniert nicht
             else
             {
-                //SecondWindow secondWindow = new SecondWindow();
-                //secondWindow.Show();
+               
             }
 
         }
+
     }
 }

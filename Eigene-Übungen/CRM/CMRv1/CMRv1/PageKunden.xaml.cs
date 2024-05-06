@@ -24,21 +24,44 @@ namespace CMRv1
     /// </summary>
     public partial class PageKunden : Page
     {
+
         public PageKunden()
         {
             InitializeComponent();
-
-            //Pfad für PC
             LoadFilesFromFolder(@"C:\Users\Hendrik\Documents\CRM\Kundendaten");
-
-            ////Pfad für Laptop
-            //LoadFilesFromFolder(@"C:\Users\hendr\Documents\CRM");
-
         }
 
-        private void LoadFilesFromFolder(string folderPath)
+        public void BtnShowKunden_Click(object sender, RoutedEventArgs e)
         {
-            string[] files = Directory.GetFiles(folderPath);
+
+            DirectoryInfo directoryInfo = new DirectoryInfo(@"C:\Users\Hendrik\Documents\CRM\Kundendaten");
+
+            FileInfo[] fileInfos = directoryInfo.GetFiles();
+            
+            foreach (FileInfo file in fileInfos) 
+            {
+                ComboBoxKunden.SelectedItem.ToString();
+                
+            }
+
+            ThirdWindow thirdwindow = new ThirdWindow();
+            thirdwindow.Show();
+
+           
+           
+            
+        }
+        public string ComboBoxReturn()
+        {
+            return ComboBoxKunden.SelectedItem as string;
+        }
+
+
+
+        private void LoadFilesFromFolder(string kundenpath)
+        {
+
+            string[] files = Directory.GetFiles(kundenpath);
 
             foreach (string file in files)
             {
@@ -48,20 +71,13 @@ namespace CMRv1
             
         }
 
-        private void BtnShowKunden_Click(object sender, RoutedEventArgs e)
-        {
-            string selectedFileName = ComboBoxKunden.SelectedItem.ToString();
-            string kunde1 = "Kunde1.txt";
+        
 
-            if (selectedFileName == kunde1)
-            {
-                ThirdWindow thirdwindow = new ThirdWindow();
-                thirdwindow.Show();
-            }
+            
 
 
 
 
-        }
+        
     }
 }
