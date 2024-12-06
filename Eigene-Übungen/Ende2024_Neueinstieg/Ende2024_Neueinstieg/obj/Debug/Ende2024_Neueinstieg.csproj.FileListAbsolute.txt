@@ -1,0 +1,7 @@
+D:\Github-Projects\Private-Pogramme\Eigene-Übungen\Ende2024_Neueinstieg\Ende2024_Neueinstieg\bin\Debug\Ende2024_Neueinstieg.exe.config
+D:\Github-Projects\Private-Pogramme\Eigene-Übungen\Ende2024_Neueinstieg\Ende2024_Neueinstieg\bin\Debug\Ende2024_Neueinstieg.exe
+D:\Github-Projects\Private-Pogramme\Eigene-Übungen\Ende2024_Neueinstieg\Ende2024_Neueinstieg\bin\Debug\Ende2024_Neueinstieg.pdb
+D:\Github-Projects\Private-Pogramme\Eigene-Übungen\Ende2024_Neueinstieg\Ende2024_Neueinstieg\obj\Debug\Ende2024_Neueinstieg.csproj.AssemblyReference.cache
+D:\Github-Projects\Private-Pogramme\Eigene-Übungen\Ende2024_Neueinstieg\Ende2024_Neueinstieg\obj\Debug\Ende2024_Neueinstieg.csproj.CoreCompileInputs.cache
+D:\Github-Projects\Private-Pogramme\Eigene-Übungen\Ende2024_Neueinstieg\Ende2024_Neueinstieg\obj\Debug\Ende2024_Neueinstieg.exe
+D:\Github-Projects\Private-Pogramme\Eigene-Übungen\Ende2024_Neueinstieg\Ende2024_Neueinstieg\obj\Debug\Ende2024_Neueinstieg.pdb

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -20,60 +21,57 @@ namespace CMRv1
     /// </summary>
     public partial class ThirdWindow : Window
     {
+        private readonly string selectedFilePath;
+
         public ThirdWindow()
         {
+
             InitializeComponent();
-            //DirectoryInfo directoryInfo = new DirectoryInfo(@"C:\Users\Hendrik\Documents\CRM\Kundendaten");
-            //StreamReader  readerKunden = new StreamReader(@"C:\Users\Hendrik\Documents\CRM\Kundendaten");
+            ShowFilesFromFolder();
 
 
-
-            //txtImport.Text = kundenreader.ReadToEnd();
-            //kundenSchreiben.Write(txtImport.Text);
-            //kundenreader.Close();
-            LoadFilesFromFolder(@"C:\Users\Hendrik\Documents\CRM\Kundendaten\");
+            FileStream fileStream = new FileStream(selectedFilePath, FileMode.Open);
+            StreamReader streamReader = new StreamReader(fileStream);
+                
+            string fileContent = streamReader.ReadToEnd();
+            txtImport.Text = fileContent;
+            fileStream.Close();
+                
+            
         }
 
 
-        private void LoadFilesFromFolder(string kundenpath)
+        public string ShowFilesFromFolder()
         {
-            PageKunden pageKundenHilfe = new PageKunden();
-            string fileConent = pageKundenHilfe.ComboBoxKunden.SelectedItem as string;
-            
 
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.Filter = "Textdateien (*.txt)|*.txt|Alle Dateien (*.*)|*.*";
 
-            string[] files = Directory.GetFiles(kundenpath);
-
-            foreach (string file in files)
+            if (openFileDialog.ShowDialog() == true)
             {
-                if (fileConent == file)
-                {
-                    StreamReader readerKunden = new StreamReader(kundenpath) ; //<- muss geändert werden
-                    txtImport.Text = readerKunden.ReadToEnd();
-                    readerKunden.Close();
-                }
+                string selectedFilePath = openFileDialog.FileName;
+                //neuer test
+                
+                
             }
-            
-
-           
-            
-            
-
+            return selectedFilePath;
         }
 
 
-        private void BtnÜberschreiben_Click(object sender, RoutedEventArgs e)
+
+        public void BtnÜberschreiben_Click(object sender, RoutedEventArgs e)
         {
 
-             //StreamWriter kundenSchreiben = new StreamWriter(@"C:\Users\Hendrik\Documents\CRM\Kundendaten\");
 
+            string selectedFilePath = @"C:\Users\Hendrik\Documents\CRM\Kundendaten";
 
-
-             //kundenSchreiben.Write(txtImport.Text);
-
-             //kundenSchreiben.Close();
-            
-             //this.Close();
+            ////FileStream fileStream = new FileStream(selectedFilePath,FileMode.OpenOrCreate);
+            {
+            StreamWriter streamWriter = new StreamWriter(selectedFilePath);
+            streamWriter.WriteLine(txtImport.Text);
+            streamWriter.Close();
+            this.Close();
+            }
         }
     }
 }

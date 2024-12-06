@@ -1,0 +1,5 @@
+D:\Github-Projects\Private-Pogramme\Eigene-Übungen\TaschenrechnerV1\TaschenrechnerV1\obj\Debug\TaschenrechnerV1.csproj.AssemblyReference.cache
+D:\Github-Projects\Private-Pogramme\Eigene-Übungen\TaschenrechnerV1\TaschenrechnerV1\obj\Debug\MainWindow.g.cs
+D:\Github-Projects\Private-Pogramme\Eigene-Übungen\TaschenrechnerV1\TaschenrechnerV1\obj\Debug\App.g.cs
+D:\Github-Projects\Private-Pogramme\Eigene-Übungen\TaschenrechnerV1\TaschenrechnerV1\obj\Debug\TaschenrechnerV1_MarkupCompile.cache
+D:\Github-Projects\Private-Pogramme\Eigene-Übungen\TaschenrechnerV1\TaschenrechnerV1\obj\Debug\TaschenrechnerV1_MarkupCompile.lref
