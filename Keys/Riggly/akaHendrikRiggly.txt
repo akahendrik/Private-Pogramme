@@ -1,0 +1,10 @@
+Authority:  akaHendrikRiggly
+Creation:   27.12.2023 17:26:08 (by HENDRIKMAIN\Hendrik)
+
+== PRIVATE KEY ==
+File: C:\Users\Hendrik\Desktop\Riggly\keys\akaHendrikRiggly.biprivatekey
+MD5: 48e55905a55b85de82b45c66f293ddd5
+== PUBLIC KEY ==
+File: C:\Users\Hendrik\Desktop\Riggly\keys\akaHendrikRiggly.bikey
+MD5: 96275337e882ad49ec7ae0ada5f6c15c
+

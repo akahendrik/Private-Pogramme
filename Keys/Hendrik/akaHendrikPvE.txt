@@ -1,0 +1,10 @@
+Authority:  akaHendrikPvE
+Creation:   23.12.2023 21:15:48 (by HENDRIKMAIN\Hendrik)
+
+== PRIVATE KEY ==
+File: C:\Users\Hendrik\Desktop\@Loot-City-Core\keys\akaHendrikPvE.biprivatekey
+MD5: 78d859619846f93a47f947a00da9d5ac
+== PUBLIC KEY ==
+File: C:\Users\Hendrik\Desktop\@Loot-City-Core\keys\akaHendrikPvE.bikey
+MD5: 47a7b12be30e3facc0e83669c302d142
+

@@ -1,0 +1,10 @@
+Authority:  akaHendrikMisterX
+Creation:   19.02.2024 20:29:24 (by HENDRIKMAIN\Hendrik)
+
+== PRIVATE KEY ==
+File: C:\Users\Hendrik\Desktop\Keys\Mister-X\akaHendrikMisterX.biprivatekey
+MD5: 2073ddcb02ecf0d5d966c6ba9249b37b
+== PUBLIC KEY ==
+File: C:\Users\Hendrik\Desktop\Keys\Mister-X\akaHendrikMisterX.bikey
+MD5: f40b0915f2cb11762e8b649ffec2b8d9
+

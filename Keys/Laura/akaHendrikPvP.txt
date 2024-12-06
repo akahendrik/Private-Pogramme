@@ -1,0 +1,10 @@
+Authority:  akaHendrikPvP
+Creation:   18.12.2023 10:24:10 (by HENDRIKMAIN\Hendrik)
+
+== PRIVATE KEY ==
+File: C:\Users\Hendrik\Desktop\LauraPvP\keys\akaHendrikPvP.biprivatekey
+MD5: b04f0449c3f683cb7b4e45d3c5cd9280
+== PUBLIC KEY ==
+File: C:\Users\Hendrik\Desktop\LauraPvP\keys\akaHendrikPvP.bikey
+MD5: bfe71ee8e70d76514fc408cdaee4dbaa
+

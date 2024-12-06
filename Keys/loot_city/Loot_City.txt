@@ -1,0 +1,10 @@
+Authority:  Loot_City
+Creation:   07.11.2023 16:05:40 (by HENDRIKMAIN\Hendrik)
+
+== PRIVATE KEY ==
+File: C:\Users\Hendrik\Desktop\LC_Core\Keys\Loot_City.biprivatekey
+MD5: 840051ba4fa6a92bef13ba4835b7e43a
+== PUBLIC KEY ==
+File: C:\Users\Hendrik\Desktop\LC_Core\Keys\Loot_City.bikey
+MD5: 3beffdd157efeda0770dd9d4d7a10ae5
+

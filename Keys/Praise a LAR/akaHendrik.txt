@@ -1,0 +1,10 @@
+Authority:  akaHendrik
+Creation:   09.06.2024 14:59:37 (by HENDRIKMAIN\Hendrik)
+
+== PRIVATE KEY ==
+File: C:\Users\Hendrik\Desktop\Keys\Praise a LAR\akaHendrik.biprivatekey
+MD5: fe4a4d9f1b93e64b18f4e6cd6c8f6617
+== PUBLIC KEY ==
+File: C:\Users\Hendrik\Desktop\Keys\Praise a LAR\akaHendrik.bikey
+MD5: 482ea948ded9d63418e784669795494b
+
